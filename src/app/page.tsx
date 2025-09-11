@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function LandingPage() {
   return (
@@ -23,9 +24,9 @@ export default function LandingPage() {
              disini!
           </h1>
 
-          <button className="px-8 py-2 bg-[#FFFF02] rounded-xl font-semibold text-black shadow-lg hover:bg-purple-400 transition cursor-pointer">
+          <Link href="/home" className="px-8 py-2 bg-[#FFFF02] rounded-xl font-semibold text-black shadow-lg hover:bg-yellow-300 transition-colors">
             Mulai
-          </button>
+          </Link>
         </div>
 
         {/* Right Image with Gradient */}
